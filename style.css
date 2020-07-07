@@ -1,0 +1,5 @@
+.dice-round{
+    border: 1px rgba(0, 0, 0, 0.5) solid;
+    border-radius: 50%;
+    width: 100px;
+}

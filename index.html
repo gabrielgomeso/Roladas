@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo(a) ao Roladas!</h1>
+        <h2>Role seus dados e comprove os resultados!</h2>
+    </header>
+    <div id="container">
+        <button onclick="showDice()" id="abre" class="btn btn-success">1d4</button>
+        <button onclick="showDice()" class="btn btn-success">1d6</button>
+        <button onclick="showDice()" class="btn btn-success">1d8</button>
+        <button onclick="showDice()" class="btn btn-success">1d10</button>
+        <button onclick="showDice()" class="btn btn-success">1d12</button>
+        <button onclick="showDice()" class="btn btn-success">1d20</button>
+
+       
+        <div class="row">
+            <div class="col-xs card card-dado" style="width: 15rem;">
+                <img class="dice-round" src="https://i.imgur.com/pni6AjQ.png" alt="Dado de 4 lados">
+                <div class="card-body">
+                    <h5 class="card-title">Dado de 4 lados</h5>
+                    <p class="card-text">Clique aqui e role um dado de 4 lados!</p>
+                    <button type="button" onclick="rolarD4()" class="btn btn-primary">Role!</button>
+                </div>
+            </div>
+            <div class="col-xs card card-dado" style="width: 15rem;">
+                <img class="dice-round" src="https://i.imgur.com/payczDs.png" alt="Dado de 6 lados">
+                <div class="card-body">
+                    <h5 class="card-title">Dado de 6 lados</h5>
+                    <p class="card-text">Clique aqui e role um dado de 6 lados!</p>
+                    <button type="button" onclick="rolarD6()" class="btn btn-primary">Role!</button>
+                </div>
+            </div>
+            <div class="col-xs card card-dado" style="width: 15rem;">
+                <img class="dice-round" src="https://i.imgur.com/hx9JITW.png" alt="Dado de 8 lados">
+                <div class="card-body">
+                    <h5 class="card-title">Dado de 8 lados</h5>
+                    <p class="card-text">Clique aqui e role um dado de 8 lados!</p>
+                    <button type="button" onclick="rolarD8()" class="btn btn-primary">Role!</button>
+                </div>
+            </div>
+            <div class="col-xs card card-dado" style="width: 15rem;">
+                <img class="dice-round" src="https://i.imgur.com/56dm0kU.png" alt="Dado de 10 lados">
+                <div class="card-body">
+                    <h5 class="card-title">Dado de 10 lados</h5>
+                    <p class="card-text">Clique aqui e role um dado de 10 lados!</p>
+                    <button type="button" onclick="rolarD10()" class="btn btn-primary">Role!</button>
+                </div>
+            </div>
+            <div class="col-xs card card-dado" style="width: 15rem;">
+                <img class="dice-round" src="https://i.imgur.com/k5zsr2L.png" alt="Dado de 12 lados">
+                <div class="card-body">
+                    <h5 class="card-title">Dado de 12 lados</h5>
+                    <p class="card-text">Clique aqui e role um dado de 12 lados!</p>
+                    <button type="button" onclick="rolarD12()" class="btn btn-primary">Role!</button>
+                </div>
+            </div>
+            <div class="col-xs card card-dado" style="width: 15rem;">
+                <img class="dice-round" src="https://i.imgur.com/1TOoAo3.png" alt="Dado de 20 lados">
+                <div class="card-body">
+                    <h5 class="card-title">Dado de 20 lados</h5>
+                    <p class="card-text">Clique aqui e role um dado de 20 lados!</p>
+                    <button type="button" onclick="rolarD20()" class="btn btn-primary">Role!</button>
+                </div>
+            </div>
+            <div class="col-xs card card-dado" style="width: 15rem;">
+                <img class="dice-round" src="https://i.imgur.com/JNCnzWh.png" alt="Dado de 100 lados">
+                <div class="card-body">
+                    <h5 class="card-title">Dado de 100 lados</h5>
+                    <p class="card-text">Clique aqui e role um dado de 100 lados!</p>
+                    <button type="button" onclick="rolarD100()" class="btn btn-primary">Role!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery and JS -->
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="script.js"></script>
+    
+    <!-- Bootstrap Links -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
